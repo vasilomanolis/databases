@@ -23,8 +23,8 @@ public class ReadFile {
 			Class.forName("org.postgresql.Driver");
 
 			String path = "jdbc:postgresql://mod-fund-databases.cs.bham.ac.uk:5432/vxm773";
-			String username = "vxm773";
-			String password = "15901590";
+			String username = "username";
+			String password = "password";
 
 			databaseConnection = DriverManager.getConnection(path, username, password);
 
